@@ -1,14 +1,19 @@
 {
   "name": "js-2",
   "version": "1.0.0",
-  "main": "script.js",
+  "default":"index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build" : "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "sass": "^1.89.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
   }
 }
