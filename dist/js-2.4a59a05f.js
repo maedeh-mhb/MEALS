@@ -677,22 +677,25 @@ const recipeContainer = document.querySelector('.recipe');
 const showRecipe = async function() {
     // loading data
     try {
-        (0, _recipeViewJsDefault.default).renderSpinner();
         // get id
         const id = window.location.hash.slice(1);
         if (!id) return;
         console.log((0, _recipeViewJsDefault.default));
         //  loading recipe
+        (0, _recipeViewJsDefault.default).renderSpinner();
         await _modelJs.loadRecipe(id);
         const { recipe } = _modelJs.state;
         // rendering data
         (0, _recipeViewJsDefault.default).render(recipe);
     } catch (err) {
-        alert(err);
+        (0, _recipeViewJsDefault.default).renderError();
     }
 };
 showRecipe();
-window.addEventListener('hashchange', showRecipe);
+const init = function() {
+    (0, _recipeViewJsDefault.default).addHandlerRender(showRecipe);
+};
+init();
 
 },{"url:../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./model.js":"3QBkH","./views/recipeView.js":"3wx5k"}],"fd0vu":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
@@ -752,7 +755,8 @@ const loadRecipe = async function(id) {
             imgUrl: recipe.image_url
         };
     } catch (err) {
-        console.log(`this is error ${err}`);
+        console.log(err);
+        throw err;
     }
 };
 
@@ -785,6 +789,7 @@ var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
+    #errorMessage = "we could not find any recipe.please try again!";
     render(data) {
         this.#data = data;
         const details = this.#generateDetails();
@@ -794,6 +799,9 @@ class RecipeView {
     #clear() {
         this.#parentElement.innerHTML = '';
     }
+    addHandlerRender(handler) {
+        window.addEventListener('hashchange', handler);
+    }
     renderSpinner() {
         const markup = `<div class="spinner">
           <svg>
@@ -801,6 +809,18 @@ class RecipeView {
           </svg>
         </div>`;
         this.#parentElement.innerHTML = '';
+        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+    }
+    renderError(message = this.#errorMessage) {
+        const markup = `<div class="error">
+            <div>
+              <svg>
+                <use href="src/img/${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>`;
+        this.#clear();
         this.#parentElement.insertAdjacentHTML('afterbegin', markup);
     }
     #generateDetails() {

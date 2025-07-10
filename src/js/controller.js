@@ -8,23 +8,28 @@ const recipeContainer = document.querySelector('.recipe');
 
     const showRecipe =async function (){
   // loading data
+    
     try {
-    recipeView.renderSpinner();
   // get id
     const id = window.location.hash.slice(1);
     if (!id) return;
       console.log(recipeView);
       
   //  loading recipe
+    recipeView.renderSpinner();
     await model.loadRecipe(id);
     const {recipe} =model.state
     // rendering data
     recipeView.render(recipe);
   }
- catch(err){
-  alert(err)
- }
+    catch(err){
+     recipeView.renderError()
+    }
 };
 
 showRecipe();
-window.addEventListener('hashchange',showRecipe)
+const init = function(){
+  recipeView.addHandlerRender(showRecipe)
+};
+
+init()

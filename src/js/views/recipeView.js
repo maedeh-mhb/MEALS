@@ -2,6 +2,7 @@ import icons from '../../img/icons.svg';
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
+    #errorMessage ="we could not find any recipe.please try again!"
 
     render(data){
         this.#data =data;   
@@ -10,10 +11,15 @@ class RecipeView {
         this.#parentElement.insertAdjacentHTML('afterbegin',details)
     }
 
-    #clear (){
+    #clear(){
         this.#parentElement.innerHTML = ''
     }
-    renderSpinner () {
+
+    addHandlerRender(handler) {
+      window.addEventListener('hashchange',handler)
+    }
+
+    renderSpinner() {
        const markup = `<div class="spinner">
           <svg>
             <use href="${icons}#icon-loader"></use>
@@ -22,8 +28,21 @@ class RecipeView {
         this.#parentElement.innerHTML = '';
         this.#parentElement.insertAdjacentHTML('afterbegin',markup) 
     }
+
+    renderError(message = this.#errorMessage){
+      const markup =`<div class="error">
+            <div>
+              <svg>
+                <use href="src/img/${icons}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>`;
+          this.#clear();
+          this.#parentElement.insertAdjacentHTML('afterbegin',markup)
+    }
+
     #generateDetails(){
-    
         return `<figure class="recipe__fig">
                   <img src=${this.#data.imgUrl} alt="Tomato" class="recipe__img" />
                   <h1 class="recipe__title">
