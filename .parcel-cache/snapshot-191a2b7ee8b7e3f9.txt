@@ -11,7 +11,7 @@
 81C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\regions\BI.js133958345570096015 0
 90C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\node-resolver-core\lib\_empty.js133958345587114112 0
 49C:\Users\user\Desktop\js course\js-2\package.json133958457229797658 0
-41C:\Users\user\Desktop\js course\js-2\dist133964628037968259 1
+41C:\Users\user\Desktop\js course\js-2\dist133966152016951044 1
 88C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\css-sel3.js133958345572166488 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\@lmdb\lmdb-win32-x64133958345622187800 1
 44C:\Users\user\Desktop\js course\js-2\src\img133958456664400455 1
@@ -93,7 +93,7 @@
 96C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\css-env-function.js133958345571336302 0
 58C:\Users\user\Desktop\js course\js-2\src\sass\_recipe.scss133958340074669135 0
 83C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_castArrayLikeObject.js133956873447772590 0
-53C:\Users\user\Desktop\js course\js-2\src\js\config.js133964623689542105 0
+53C:\Users\user\Desktop\js course\js-2\src\js\config.js133964630072624320 0
 69C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\toJSON.js133956873455834402 0
 67C:\Users\user\Desktop\js course\js-2\node_modules\chokidar\index.js133958317088910870 0
 71C:\Users\user\Desktop\js course\js-2\node_modules\browserslist\index.js133958345595296192 0
@@ -104,7 +104,7 @@
 59C:\Users\user\Desktop\js course\js-2\node_modules\@mischnic133958345566595232 1
 73C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\updateWith.js133956873456314528 0
 81C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\regions\ML.js133958345575807392 0
-57C:\Users\user\Desktop\js course\js-2\src\js\controller.js133964614641525210 0
+57C:\Users\user\Desktop\js course\js-2\src\js\controller.js133966152016570961 0
 67C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\thru.js133956873455734381 0
 74C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_createCtor.js133956873448262725 0
 68C:\Users\user\Desktop\js course\js-2\node_modules\dotenv\SECURITY.md133958345594616030 0
@@ -112,13 +112,13 @@
 74C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_createFind.js133956873448292711 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\bindKey.js133956873450843280 0
 75C:\Users\user\Desktop\js course\js-2\node_modules\dotenv\lib\cli-options.js133958345594486005 0
-54C:\Users\user\Desktop\js course\js-2\src\js\helpers.js133964628037469421 0
+54C:\Users\user\Desktop\js course\js-2\src\js\helpers.js133964629836068833 0
 91C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\utils\src\generateBuildMetrics.js133958345633230604 0
 77C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\events\src\index.js133958345630139912 0
 68C:\Users\user\Desktop\js course\js-2\node_modules\picomatch\index.js133958317088770822 0
 69C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\concat.js133956873451103344 0
 55C:\Users\user\Desktop\js course\js-2\node_modules\json5133958345569445884 1
-52C:\Users\user\Desktop\js course\js-2\src\js\model.js133964627421246530 0
+52C:\Users\user\Desktop\js course\js-2\src\js\model.js133966151975876618 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\forEach.js133956873452283596 0
 77C:\Users\user\Desktop\js course\js-2\node_modules\source-map-js\source-map.js133958317089000884 0
 79C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\profiler\lib\types.js133958345598847134 0
@@ -138,7 +138,7 @@
 101C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\subresource-integrity.js133958345577997905 0
 63C:\Users\user\Desktop\js course\js-2\node_modules\commander\lib133958345626478934 1
 72C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\partition.js133956873454674133 0
-63C:\Users\user\Desktop\js course\js-2\src\js\views\recipeView.js133964615719251554 0
+63C:\Users\user\Desktop\js course\js-2\src\js\views\recipeView.js133966151963341156 0
 63C:\Users\user\Desktop\js course\js-2\node_modules\.bin\sass.cmd133958317095799646 0
 76C:\Users\user\Desktop\js course\js-2\node_modules\msgpackr\dist\index.js.map133958345601277766 0
 60C:\Users\user\Desktop\js course\js-2\node_modules\base-x\src133958345591375302 1
@@ -499,7 +499,7 @@
 75C:\Users\user\Desktop\js course\js-2\node_modules\semver\functions\major.js133958345569595918 0
 75C:\Users\user\Desktop\js course\js-2\node_modules\utility-types\SECURITY.md133958345582494623 0
 74C:\Users\user\Desktop\js course\js-2\node_modules\picocolors\picocolors.js133958345569095796 0
-60C:\Users\user\Desktop\js course\js-2\dist\icons.0809ef97.svg133964624029455120 0
+60C:\Users\user\Desktop\js course\js-2\dist\icons.0809ef97.svg133964629365046155 0
 97C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\loading-lazy-attr.js133958345575387296 0
 72C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_baseFill.js133956873446352248 0
 67C:\Users\user\Desktop\js course\js-2\node_modules\sass\sass.dart.js133958317095259522 0
@@ -856,7 +856,7 @@
 70C:\Users\user\Desktop\js course\js-2\node_modules\msgpackr-extract\src133958345573356845 1
 136C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\index.js133958345634798312 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\fill-range\README.md133958317088810829 0
-59C:\Users\user\Desktop\js course\js-2\dist\js-2.f7626f62.css133964624030255290 0
+59C:\Users\user\Desktop\js course\js-2\dist\js-2.f7626f62.css133964629364976139 0
 72C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\takeRight.js133956873455624363 0
 93C:\Users\user\Desktop\js course\js-2\node_modules\source-map-js\lib\source-map-generator.d.ts133958317089070877 0
 72C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\package.json133956873456794596 0
@@ -1608,7 +1608,7 @@
 68C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\hasIn.js133956873452633671 0
 92C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\workers\lib\core-worker.browser.js133958345611385170 0
 71C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\includes.js133956873452733707 0
-62C:\Users\user\Desktop\js course\js-2\dist\js-2.4a59a05f.js.map133964628037958257 0
+62C:\Users\user\Desktop\js course\js-2\dist\js-2.4a59a05f.js.map133966152016941070 0
 78C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_baseDifference.js133956873446262238 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\inRange.js133956873452823746 0
 70C:\Users\user\Desktop\js course\js-2\node_modules\lmdb\dependencies\v8133958345598316963 1
@@ -1953,7 +1953,7 @@
 97C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\input-file-accept.js133958345574527109 0
 91C:\Users\user\Desktop\js course\js-2\node_modules\caniuse-lite\data\features\svg-filters.js133958345578057908 0
 83C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_baseMatchesProperty.js133956873447022420 0
-62C:\Users\user\Desktop\js course\js-2\dist\favicon.8b2f57bf.png133964624029425119 0
+62C:\Users\user\Desktop\js course\js-2\dist\favicon.8b2f57bf.png133964629365406260 0
 99C:\Users\user\Desktop\js course\js-2\node_modules\@swc\helpers\src\_check_private_redeclaration.mjs133958345582474616 0
 73C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_baseMerge.js133956873447052414 0
 77C:\Users\user\Desktop\js course\js-2\node_modules\lodash-es\_baseMergeDeep.js133956873447072414 0
@@ -3570,7 +3570,7 @@
 75C:\Users\user\Desktop\js course\js-2\node_modules\@parcel\core\package.json133958345637518938 0
 90C:\Users\user\Desktop\js course\js-2\node_modules\@swc\helpers\cjs\_is_native_function.cjs133958345578568011 0
 95C:\Users\user\Desktop\js course\js-2\node_modules\@swc\helpers\cjs\_iterable_to_array_limit.cjs133958345578598020 0
-63C:\Users\user\Desktop\js course\js-2\dist\js-2.f7626f62.css.map133964624030285305 0
+63C:\Users\user\Desktop\js course\js-2\dist\js-2.f7626f62.css.map133964629365046155 0
 65C:\Users\user\Desktop\js course\js-2\node_modules\.bin\parcel.ps1133958345771629447 0
 89C:\Users\user\Desktop\js course\js-2\node_modules\@swc\helpers\cjs\_non_iterable_rest.cjs133958345578778061 0
 91C:\Users\user\Desktop\js course\js-2\node_modules\@swc\helpers\cjs\_non_iterable_spread.cjs133958345578788071 0
@@ -4286,11 +4286,11 @@
 65C:\Users\user\Desktop\js course\js-2\node_modules\.bin\semver.ps1133958345771639450 0
 81C:\Users\user\Desktop\js course\js-2\node_modules\.bin\update-browserslist-db.cmd133958345771629447 0
 81C:\Users\user\Desktop\js course\js-2\node_modules\.bin\update-browserslist-db.ps1133958345771629447 0
-60C:\Users\user\Desktop\js course\js-2\dist\icons.21bad73c.svg133964624029415119 0
-60C:\Users\user\Desktop\js course\js-2\dist\icons.7bd9dd61.svg133964624029405110 0
-52C:\Users\user\Desktop\js course\js-2\dist\index.html133964611961972679 0
+60C:\Users\user\Desktop\js course\js-2\dist\icons.21bad73c.svg133964629364856096 0
+60C:\Users\user\Desktop\js course\js-2\dist\icons.7bd9dd61.svg133964629364856096 0
+52C:\Users\user\Desktop\js course\js-2\dist\index.html133964629364676054 0
 62C:\Users\user\Desktop\js course\js-2\dist\js-2.3464ddca.js.map133958457238609172 0
-58C:\Users\user\Desktop\js course\js-2\dist\js-2.4a59a05f.js133964628037908247 0
+58C:\Users\user\Desktop\js course\js-2\dist\js-2.4a59a05f.js133966152016901051 0
 58C:\Users\user\Desktop\js course\js-2\dist\js-2.62406edb.js133958498428990901 0
 62C:\Users\user\Desktop\js course\js-2\dist\js-2.62406edb.js.map133958498429020904 0
-59C:\Users\user\Desktop\js course\js-2\dist\logo.726d37a8.png133964624029395111 0
+59C:\Users\user\Desktop\js course\js-2\dist\logo.726d37a8.png133964629364866094 0
